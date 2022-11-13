@@ -1,0 +1,11 @@
+@mixin navtext($_size, $_weight) {
+    font-size: $_size;
+    font-weight: $_weight;
+    color: #333;
+}
+
+@mixin media($_size) {
+    @media (max-width: $_size) {
+        @content;
+    }
+}
