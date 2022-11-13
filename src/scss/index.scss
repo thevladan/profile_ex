@@ -410,12 +410,11 @@ hr {
     align-items: stretch;
     overflow: hidden;
     @include media($phone) {
-        height: 71.4rem;
+        height: 59.4rem;
     }
     &__list {
         display: flex;
         flex-wrap: wrap;
-        position: absolute;
     }
     &__item {
         border: 0.1rem solid $bgcolor;
