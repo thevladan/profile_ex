@@ -785,7 +785,7 @@ hr {
 .example__list {
   display: flex;
   flex-wrap: wrap;
-  position: absolute;
+  flex-direction: column;
 }
 .example__item {
   border: 0.1rem solid #efefef;
