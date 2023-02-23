@@ -1,2 +1,2 @@
-# profile_ex
+# barber
 Examples of works
